@@ -18,5 +18,5 @@ A simple web app built with **Streamlit** and **Machine Learning** to classify S
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/sms-spam-classifier.git
+git clone https://github.com/Uday-Kumar193/sms-spam-classifier.git
 cd sms-spam-classifier

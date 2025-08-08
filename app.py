@@ -2,7 +2,6 @@ import os
 os.environ["STREAMLIT_DISABLE_LOGGING"] = "1"
 os.environ["STREAMLIT_TELEMETRY"] = "0"
 
-
 import streamlit as st
 import pickle
 import nltk
@@ -10,11 +9,14 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
 # Download required resources
+nltk.download('punkt_tab')
 nltk.download('punkt')
 nltk.download('stopwords')
 
 # Initialize stemmer
 ps = PorterStemmer()
+
+
 
 
 # Preprocessing
